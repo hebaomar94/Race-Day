@@ -9,12 +9,12 @@ if(runnerAge > 18 && runnerRegistered === true) {
 console.log(raceNumber + 1000) 
 } ;
 if(runnerAge > 18 && runnerRegistered === true) {
-console.log(`race at 9:30 am ${raceNumber}`) 
+console.log(`race at 9:30 am ,number is ${raceNumber}`) 
 } 
 else if ( runnerAge > 18 &&  runnerRegistered != true){
-  console.log(`will ${raceNumber} at 11:00am `)
+  console.log(`will , number is ${raceNumber} at 11:00am `)
 } else if (runnerAge < 18 ) {
-  console.log( `will ${raceNumber}at 12:30 pm `)
+  console.log( `will , number is ${raceNumber}at 12:30 pm `)
 }else {
   console.log('see the registration desk.')
 }
